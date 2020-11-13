@@ -1,0 +1,27 @@
+{
+  "sender_address": "",
+  "sender_password": "",
+  "email_subject": "Secret Santa 2020",
+  "email_body": "{person}, you have been assigned {target} for Secret Santa! Please get them a gift you think they would like between $15-$30. Avoid telling other people who you are assigned in order to keep everything a surprise.\n\nThis email was automated, so if you somehow got assigned someone you've already had before, please let everyone know.\n\nTime and place will be determined at a later date.\n\nSincerely,\nSecret Santa Bot",
+  "people": [{
+    "name": "Person1",
+    "email": "person1@email.com",
+    "cant_get": ["Person2", "Person3"]
+  }, {
+    "name": "Person2",
+    "email": "person2@email.com",
+    "cant_get": ["Person3", "Person4"]
+  }, {
+    "name": "Person3",
+    "email": "person3@email.com",
+    "cant_get": ["Person4", "Person5"]
+  }, {
+    "name": "Person4",
+    "email": "person4@email.com",
+    "cant_get": ["Person5", "Person1"]
+  }, {
+    "name": "Person5",
+    "email": "person5@email.com",
+    "cant_get": ["Person1", "Person2"]
+  }]
+}
